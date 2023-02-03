@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 922px;
+    background: #FAFAFA;
+}
+
+#head-index{
+    margin: 80px auto 0;
+    width: 540px;
+    height: 168px;
+    display: block;
+}
+
+.head-cont{
+    width: 445px;
+    height: 102px;
+    margin: 0 auto;
+}
+
+.head-cont h1,h2{
+    margin: 0
+}
+.head-cont h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+}
+
+.head-cont h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+}
+
+#head-index p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 20px auto;
+}
+
+#sect-index{
+    width: 1110px;
+    height: 530px;
+    margin: 68px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-cont-box{
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+}
+
+.sect-cont-in{
+    width: 350px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mob-width{
+    display: none;
+}
+.sect-cont-one{
+    margin: auto ;
+    margin-left: 0;
+}
+
+.sect-cont-four{
+    margin: auto;
+    margin-right: 0;
+}
+
+.cont-one-mask{
+    width: 350px;
+    height: 4px;
+    margin: 0;
+    background: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+.cont-two-mask{
+    width: 350px;
+    height: 4px;
+    margin: 0;
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+.cont-three-mask{
+    width: 350px;
+    height: 4px;
+    margin: 0;
+    background: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+.cont-four-mask{
+    width: 350px;
+    height: 4px;
+    margin: 0;
+    background: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+.sect-cont-box h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin: 32px 0 0 32px;
+}
+
+.sect-cont-box p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 6px 0 0 32px;
+}
+
+.sect-cont-box img{
+    float: right;
+    margin: 42px 32px 0 0;
+    bottom: 0;
+}
+
+@media (max-width: 375px){
+    #head-index{
+        margin: 85px auto 0;
+        width: 311px;
+        height: 161px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #head-index p{
+        margin-top: 14px;
+    }
+    .head-cont{
+        width: 311px;
+        height: 73px;
+        text-align: center;
+    }
+
+    .head-cont h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .head-cont h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .head-cont p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    #sect-index{
+        width: fit-content;
+        height: fit-content;
+        margin: 57px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .sect-cont-box{
+        width: 311px;
+        height: 222px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .mask-size{
+        width: 311px;
+        height: 3.55px;
+    }
+
+    .sect-cont-in{
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .sect-cont-box h1{
+        margin: 23px 0 0 28px;
+    }
+
+    .sect-cont-box p{
+        margin: 0 0 0 29px;
+    }
+
+    .sect-cont-box img{
+        width: 57px;
+        height: 57px;
+        margin: 34px 28px 0 0;
+    }
+
+    .desk-width{
+        display: none;
+    }
+
+    .mob-width{
+        display: flex;
+    }
+}
